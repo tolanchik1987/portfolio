@@ -3,6 +3,7 @@ import classes from "./HomePage.module.scss";
 import imgMe from "../../assets/img/anatol.jpg";
 import styled, { keyframes } from "styled-components";
 import { fadeInLeftBig } from "react-animations";
+import { FiArrowRightCircle } from "react-icons/fi";
 
 const slideInDownAnimation = keyframes`${fadeInLeftBig}`;
 const AnimationDiv = styled.div`
@@ -33,25 +34,26 @@ const HomePage = () => {
                <h2>MY STACK:</h2>
                <h3 align="left">Languages and Tools:</h3>
                <div className={classes.conteinerTools}>
-                  
-                     <a
-                        href="https://www.w3schools.com/css/"
-                        target="_blank"
-                        rel="noreferrer"
-                     >
-                        <img
-                           src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
-                           alt="css3"
-                           width="40"
-                           height="40"
-                        />
-                        <p> - CSS3</p>
-                     </a>
-                  
+                  <a
+                     href="https://www.w3schools.com/css/"
+                     target="_blank"
+                     rel="noreferrer"
+                     className={classes.underline_one}
+                  >
+                     <img
+                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
+                        alt="css3"
+                        width="40"
+                        height="40"
+                     />
+                     <p>- CSS3</p>
+                  </a>
+
                   <a
                      href="https://git-scm.com/"
                      target="_blank"
                      rel="noreferrer"
+                     className={classes.underline_one}
                   >
                      <img
                         src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
@@ -65,6 +67,7 @@ const HomePage = () => {
                      href="https://www.w3.org/html/"
                      target="_blank"
                      rel="noreferrer"
+                     className={classes.underline_one}
                   >
                      <img
                         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
@@ -78,6 +81,7 @@ const HomePage = () => {
                      href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
                      target="_blank"
                      rel="noreferrer"
+                     className={classes.underline_one}
                   >
                      <img
                         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
@@ -91,6 +95,7 @@ const HomePage = () => {
                      href="https://www.photoshop.com/en"
                      target="_blank"
                      rel="noreferrer"
+                     className={classes.underline_one}
                   >
                      <img
                         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg"
@@ -104,6 +109,7 @@ const HomePage = () => {
                      href="https://reactjs.org/"
                      target="_blank"
                      rel="noreferrer"
+                     className={classes.underline_one}
                   >
                      <img
                         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
@@ -117,6 +123,7 @@ const HomePage = () => {
                      href="https://redux.js.org"
                      target="_blank"
                      rel="noreferrer"
+                     className={classes.underline_one}
                   >
                      <img
                         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg"
@@ -130,6 +137,7 @@ const HomePage = () => {
                      href="https://sass-lang.com"
                      target="_blank"
                      rel="noreferrer"
+                     className={classes.underline_one}
                   >
                      <img
                         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg"
@@ -143,6 +151,7 @@ const HomePage = () => {
                      href="https://www.typescriptlang.org/"
                      target="_blank"
                      rel="noreferrer"
+                     className={classes.underline_one}
                   >
                      <img
                         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
@@ -152,6 +161,45 @@ const HomePage = () => {
                      />
                      <p> - TYPESCRIPT</p>
                   </a>
+               </div>
+               <div className={classes.conteiner_myProject}>
+                  <span>MY PROJECT:</span>
+                  <div className={classes.myProject} align="left">
+                     <div>
+                        <FiArrowRightCircle
+                           style={{
+                              background: "#66FF00",
+                              borderRadius: 50,
+                              fontSize: 40,
+                           }}
+                        />
+                        <a
+                           href="https://tolanchik1987.github.io/myfirstproject"
+                           alt=""
+                           className={classes.underline_one}
+                        >
+                           {" "}
+                           Plise see my project
+                        </a>
+                     </div>
+                     <div>
+                        <FiArrowRightCircle
+                           style={{
+                              background: "#66FF00",
+                              borderRadius: 50,
+                              fontSize: 40,
+                           }}
+                        />
+                        <a
+                           href="https://github.com/tolanchik1987"
+                           alt=""
+                           className={classes.underline_one}
+                        >
+                           {" "}
+                           Plise see my github profile
+                        </a>
+                     </div>
+                  </div>
                </div>
                <div>
                   <img
