@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5453b42b.css",
+    "main.css": "/portfolio/static/css/main.270f38c9.css",
     "main.js": "/portfolio/static/js/main.f106e3a7.js",
     "static/media/anatol.jpg": "/portfolio/static/media/anatol.5064961d91e8cd25a529.jpg",
     "index.html": "/portfolio/index.html",
-    "main.5453b42b.css.map": "/portfolio/static/css/main.5453b42b.css.map",
+    "main.270f38c9.css.map": "/portfolio/static/css/main.270f38c9.css.map",
     "main.f106e3a7.js.map": "/portfolio/static/js/main.f106e3a7.js.map"
   },
   "entrypoints": [
-    "static/css/main.5453b42b.css",
+    "static/css/main.270f38c9.css",
     "static/js/main.f106e3a7.js"
   ]
 }
